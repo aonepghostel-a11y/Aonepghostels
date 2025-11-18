@@ -1,0 +1,170 @@
+<!-- header.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A1 PG/HOSTEL</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="welcome.css" />
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="image/logo.jpeg" alt="Logo" />
+      <span>A1 PG/HOSTEL<br><small>Excutive Hostels</small></span>
+    </div>
+    <nav class="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About us</a>
+      <a href="location.html">Location Highlights</a>
+      <a href="blog.html">Blog</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+918247855780" class="phone">📞 +91 8247855780</a>
+      <button onclick="applyOnline()">Online Application</button>
+    </div>
+  </header>
+
+  <section id="contact" class="section">
+    <h2>Book Your Stay</h2>
+    <form action="/api/pg/apply" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <button type="submit">Apply Now</button>
+    </form>
+  </section>
+
+  <section class="about-section">
+    <div class="about-text">
+        <h2>About <span>A1 PG/HOSTEL</span></h2>
+        <p class="highlight">
+            A Decade of Experience, our accommodation center has been a trusted haven for students and professionals seeking comfort, convenience, and affordability. With a decade of expertise, we pride ourselves on providing a home-away-from-home experience, ensuring every guest feels welcomed and valued. From cozy rooms to top-notch amenities, our commitment to excellence has made us a preferred choice for discerning professionals.
+        </p>
+        <p>
+            We are Vijayawada’s most sought after destination for working professionals who seek a living space and food.
+        </p>
+        <a href="#" class="read-btn">Read More</a>
+    </div>
+  </div>
+    <img src="image/WhatsApp Image 2025-11-12 at 10.15.24 PM.jpeg" alt="Luxury PG Building 2">
+  </div>
+  
+  
+</section>
+
+
+
+<div class="slider-container">
+  <div class="slide active">
+    <div class="text-box">
+      <h3>LUXURY PG/HOSTEL </h3>
+      <h1>Luxurious and <br> Comfortable <br> Living Experience</h1>
+    </div>
+    <img src="image/2.jpeg" alt="Luxury PG Building 1">
+  </div>
+
+  <div class="slide">
+    <div class="text-box">
+      <h3>SPACIOUS ROOMS</h3>
+      <h1>Modern Furnishings <br> and Great Amenities</h1>
+    </div>
+    <img src="image/3.jpeg" alt="Luxury PG Building 2">
+  </div>
+
+  <div class="slide">
+    <div class="text-box">
+      <h3>SAFE & SECURE</h3>
+      <h1>24/7 Security <br> and Gated Premises</h1>
+    </div>
+    <img src="image/4.jpeg" alt="Luxury PG Building 3">
+  </div>
+
+  <button class="prev" onclick="prevSlide()">❮</button>
+  <button class="next" onclick="nextSlide()">❯</button>
+</div>
+
+
+
+
+  
+    <div class="container">
+      <h1>Welcome To A1 PG/HOSTEL</h1>
+      <h2>For MEDICOS,  Students & Working Mens</h2>
+      
+      <div class="card-container">
+        <div class="card">
+          <img src="image/WhatsApp Image 2025-11-12 at 10.15.25 PM (1).jpeg" alt="Girl">
+          <h3>Girl's Hostel</h3>
+          <p><i class="fa fa-lock"></i> 1, 2, 3 Share</p>
+          <a href="apply.html" class="btn">Click Here ➜</a>
+        </div>
+        <div class="card">
+          <img src="image/WhatsApp Image 2025-11-12 at 10.15.25 PM (2).jpeg" alt="Boy">
+          <h3>Boy's Hostel</h3>
+          <p><i class="fa fa-lock"></i> 1, 2, 3 Share</p>
+          <a href="apply.html" class="btn">Click Here ➜</a>
+        </div>
+        <div class="card">
+          <img src="image/WhatsApp Image 2025-11-12 at 10.15.25 PM.jpeg" alt="Working Men">
+          <h3>Working Men Hostel</h3>
+          <p><i class="fa fa-lock"></i> 1, 2, 3 Share</p>
+          <a href="apply.html" class="btn">Click Here ➜</a>
+        </div>
+      </div>
+    </div>
+  
+
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>About Us</h3>
+      <p>
+       At A1 PG/HOSTEL, we believe every guest deserves clean rooms, home-style food, and peaceful living. With 24x7 power backup, high-speed Wi-Fi, and CCTV security, we ensure a worry-free stay for everyone.
+.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p><i class="fas fa-map-marker-alt"></i> 52-5-52/3, Veterinary Colony, Very near to GGH, NTR&Siddharth medical colleges and Software company's,Vijayawada, Andhra Pradesh 520008</p>
+      <p><i class="fas fa-phone"></i> +91 8247855780</p>
+      <p><i class="fas fa-envelope"></i> Nanidas8820@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 A1 PG/HOSTEL. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Font Awesome Icons (add in <head> or before </body>) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <script>
+    function applyOnline() {
+      window.location.href = "application.html";
+    }
+  </script>
+  <script src="slider.js"></script>
+  <script src="script.js"></script>
+
+
+
+  
+
+</body>
+</html>
